@@ -77,6 +77,162 @@ nav{
 /* header */
 
 /* main */
+.section-one{
+  background-color: white;
+  padding: 60px 10px 60px 10px;
+}
+
+.section-one .section-one-inner{
+  gap:20px;
+  flex-direction: column;
+}
+
+.card{
+  flex-direction: column;
+  background-color: #B5DDFF;
+  padding: 40px 30px 40px 30px;
+  border-radius: 35px;
+  gap: 25px
+}
+
+.card .description{
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.card .description h3{
+  text-align: center;
+  color: #0084FD;
+}
+
+.card .description p, .card p{
+  text-align: center;
+  color: #5A6E7F;
+  font-weight: bold;
+}
+
+.card .description button {
+  background-color: #0084FD;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  width: 100%;
+}
+
+.card .description button a{
+  text-decoration: none;
+  color: white;
+}
+
+.card .description button a span{
+  margin-right: 5px;
+}
+
+#first-card  {
+  padding-bottom: 0;
+}
+
+#first-card .image img{
+  width: 100%;
+  object-fit: contain;
+}
+
+/* from the second card on */
+.card .icon {
+  font-size: 4em;
+  text-align: center;
+  color: #0084FD;
+  
+}
+
+.card .title{
+  text-align: center;
+  color: #0084FD;
+}
+
+/* section-two */
+.section-two{
+  background-color: #9792E4;
+  padding: 60px 10px 60px 10px;
+}
+
+.section-two .section-two-inner{
+  flex-direction: column;
+  gap: 30px;
+}
+
+.section-two .section-two-inner .strategic-planning{
+  flex-direction: column;
+  gap:20px;
+}
+
+.section-two .section-two-inner .strategic-planning h2{
+  color: white;
+  text-align: center;
+}
+.section-two .section-two-inner .strategic-planning p{
+  color: white;
+  
+}
+
+.section-two .section-two-inner .strategic-planning .image img, .section-two .section-two-inner .app-dev .image img {
+  width: 100%;
+  object-fit: contain;
+
+}
+
+.section-two .section-two-inner .app-dev{
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 30px;
+  padding: 20px 15px 20px 15px;
+  gap: 15px;
+}
+
+.section-two .section-two-inner .app-dev p{
+  text-align: center;
+  color: #5A6E7F;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.section-two .section-two-inner .app-dev .down-arrow {
+ 
+}
+
+.section-two .section-two-inner .app-dev .down-arrow #circle{
+  border-radius: 50%;
+  padding: auto;
+  border: none;
+  background-color: #9792E4;
+ 
+}
+
+/* section-two */
+/* section-three */
+.section-three-inner{
+  padding: 40px 10px 40px 10px;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.section-three-inner h2{
+  text-align: center;
+  color: #9792E4;
+}
+.section-three-inner p{
+  text-align: center;
+  
+}
+
+.section-three-inner .testimonial{
+  
+}
+
+/* section-three */
 
 
 
