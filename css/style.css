@@ -436,11 +436,33 @@ font-size: 2.5em;
 /* section-six */
 
 
-
-
-
-
-
-
-
 /* main */
+
+/* footer */
+
+footer{
+  background-color: #333333;
+}
+
+.footer-inner{
+  padding: 40px 20px 40px 20px;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer-inner p{
+text-align: center;
+color: white;
+text-align-last: center;
+}
+
+.footer-inner p a{
+  color:#9792E4;
+  text-decoration: underline;
+}
+
+
+
+
+
+/* footer */
