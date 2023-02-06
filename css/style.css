@@ -14,6 +14,11 @@ button{
   padding: 8px 12px 8px 12px;
   cursor: pointer;
 }
+
+a{
+  text-decoration: none;
+}
+
 /* common */
 
 /* header */
@@ -121,7 +126,7 @@ nav{
 }
 
 .card .description button a{
-  text-decoration: none;
+  
   color: white;
 }
 
@@ -229,10 +234,88 @@ nav{
 }
 
 .section-three-inner .testimonial{
+  flex-direction: column;
+  background-color: #9792E4;
+  border-radius: 30px;
+  padding: 20px 15px 20px 15px;
+  color: white;
+  gap: 15px;
   
+}
+.section-three-inner .testimonial .profile-image{
+  
+  /* overflow: auto; */    
+}
+.section-three-inner .testimonial .profile-image img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.section-three-inner .testimonial .profi-description{
+  flex-direction: column;
+  justify-content: center;
+  gap:20px;
+}
+
+.section-three-inner .testimonial .profi-description h5{
+  text-align: center;
+}
+
+.section-three-inner .testimonial .profi-description span{
+  margin: 0 5px 0 5px;
 }
 
 /* section-three */
+/* section-four */
+.section-four{
+  background-color: #9792E4;
+}
+
+.section-four .section-four-inner{
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px 15px 30px 15px;
+}
+
+.section-four .section-four-inner h2{
+  color: white;
+  text-align: center;
+}
+
+.section-four .section-four-inner .benefits-container{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-four .section-four-inner .benefits-container .benefits-card{
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  color: #9792E4;
+  padding: 20px 15px 20px 15px;
+  border-radius: 35px;
+}
+
+.section-four .section-four-inner .benefits-container .benefits-card h2{
+  color: #9792E4;
+  text-align: start;
+  font-size: 2em;
+}
+
+.section-four .section-four-inner .benefits-container .benefits-card .button-more button{
+  background-color: #9792E4;
+  border: none;
+  width: 50%;
+
+}
+
+.section-four .section-four-inner .benefits-container .benefits-card .button-more button a{
+  color: white;
+  font-weight: bold;
+}
+/* section-four */
+
 
 
 
