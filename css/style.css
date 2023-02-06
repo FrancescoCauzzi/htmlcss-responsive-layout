@@ -20,6 +20,10 @@ a{
   text-decoration: none;
 }
 
+p{
+  line-height: 2em;
+}
+
 /* common */
 
 /* header */
@@ -83,6 +87,7 @@ nav{
 /* header */
 
 /* main */
+/* section-one */
 .section-one{
   background-color: white;
   padding: 60px 10px 60px 10px;
@@ -113,7 +118,11 @@ nav{
   color: #0084FD;
 }
 
-.card .description p, .card p{
+.card .description p{
+  text-align: justify;
+}
+
+.card p{
   text-align: center;
   color: #5A6E7F;
   font-weight: bold;
@@ -121,6 +130,7 @@ nav{
 
 .card .description button {
   background-color: #0084FD;
+  font-weight: bold;
   border: none;
   padding: 10px 30px 10px 30px;
   width: 100%;
@@ -156,11 +166,11 @@ nav{
   text-align: center;
   color: #0084FD;
 }
-
+/* section-one */
 /* section-two */
 .section-two{
   background-color: #9792E4;
-  padding: 60px 10px 60px 10px;
+  padding: 60px 30px 60px 30px;
 }
 
 .section-two .section-two-inner{
@@ -175,10 +185,11 @@ nav{
 
 .section-two .section-two-inner .strategic-planning h2{
   color: white;
-  text-align: center;
+  text-align: justify;
 }
 .section-two .section-two-inner .strategic-planning p{
   color: white;
+  text-align:justify;
   
 }
 
@@ -219,10 +230,10 @@ nav{
 /* section-two */
 /* section-three */
 .section-three-inner{
-  padding: 40px 10px 40px 10px;
+  padding: 60px 10px 60px 10px;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 25px;
 }
 
 .section-three-inner h2{
@@ -244,11 +255,17 @@ nav{
   
 }
 .section-three-inner .testimonial .profile-image{
+  justify-content: center;
+  
+  
+  
   
   /* overflow: auto; */    
 }
 .section-three-inner .testimonial .profile-image img{
-  width: 100%;
+  
+  width: 60%;
+  
   object-fit: cover;
   border-radius: 50%;
 }
@@ -261,6 +278,7 @@ nav{
 
 .section-three-inner .testimonial .profi-description h5{
   text-align: center;
+  font-size: 1.2em;
 }
 
 .section-three-inner .testimonial .profi-description span{
@@ -293,7 +311,7 @@ nav{
   flex-direction: column;
   gap: 20px;
   background-color: white;
-  color: #9792E4;
+  color: #737373;
   padding: 20px 15px 20px 15px;
   border-radius: 25px;
 }
@@ -302,6 +320,10 @@ nav{
   color: #9792E4;
   text-align: start;
   font-size: 2em;
+}
+
+.section-four .section-four-inner .benefits-container .benefits-card h4{
+  color:#9792E4;
 }
 
 .section-four .section-four-inner .benefits-container .benefits-card .button-more button{
@@ -325,12 +347,16 @@ nav{
 .section-five .section-five-inner{
   flex-direction: column;
   padding: 40px 15px 40px 15px;
-  gap:20px;
+  gap:50px;
 }
 
 .section-five .section-five-inner .about-us{
   flex-direction: column;
   gap: 20px;
+}
+
+.section-five .section-five-inner .about-us p{
+  
 }
 
 .section-five .section-five-inner .about-us h2{
@@ -349,10 +375,10 @@ nav{
 
 .section-five .section-five-inner .about-us-testimony .au-image .virgolette{
   position: absolute;
-  top:-0.2em;
+  top:0%;
+  left: 70%;
   color: #9792E4;
-  font-size: 3.5em;
-  left: 2.1em;
+  font-size: 300%;
 }
 
 .section-five .section-five-inner .about-us-testimony .au-image img{
@@ -454,6 +480,7 @@ footer{
 text-align: center;
 color: white;
 text-align-last: center;
+line-height: 1.2em;
 }
 
 .footer-inner p a{
