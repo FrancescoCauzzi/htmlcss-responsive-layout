@@ -1,3 +1,4 @@
+/* Mobile first */
 /* common */
 .flexbox{
   display: flex;
@@ -186,6 +187,7 @@ nav{
 .section-two .section-two-inner .strategic-planning h2{
   color: white;
   text-align: justify;
+  font-size: 2.5em;
 }
 .section-two .section-two-inner .strategic-planning p{
   color: white;
@@ -489,7 +491,46 @@ line-height: 1.2em;
 }
 
 
-
-
-
 /* footer */
+/* Mobile first */
+
+/* Tablet */
+
+@media screen and (min-width: 576px) {
+  /* section-one */
+  .section-one .section-one-inner,.section-four .section-four-inner .benefits-container{
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0;
+  }
+
+  .section-one .section-one-inner .card{
+    width: calc(100% / 3 - (10px / 3 * 2 ));
+    margin-bottom: 10px;
+  }
+
+  .section-one .section-one-inner #first-card{
+    width: calc(100% / 3 * 2 - (10px / 3 * 1));
+    
+  }
+  /* section-one */
+  /* section-three */
+  .section-three .section-three-inner .testimonial{
+    flex-direction: row;
+  }
+  /* section-three */
+  /* section-four */
+  .section-four .section-four-inner .benefits-container .benefits-card{
+    width: calc(100% / 2 - (10px / 2 * 1 ));
+    margin-bottom: 10px;
+  }
+  /* section-four */
+  /* section-five */
+
+
+  /* section-five */
+
+}
+
+/* tablet */
