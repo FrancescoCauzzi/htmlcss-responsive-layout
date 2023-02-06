@@ -13,6 +13,7 @@ button{
   border-radius: 30px;
   padding: 8px 12px 8px 12px;
   cursor: pointer;
+  border: none;
 }
 
 a{
@@ -294,7 +295,7 @@ nav{
   background-color: white;
   color: #9792E4;
   padding: 20px 15px 20px 15px;
-  border-radius: 35px;
+  border-radius: 25px;
 }
 
 .section-four .section-four-inner .benefits-container .benefits-card h2{
@@ -315,6 +316,124 @@ nav{
   font-weight: bold;
 }
 /* section-four */
+
+/* section-five */
+.section-five{
+  background-color: white;
+}
+
+.section-five .section-five-inner{
+  flex-direction: column;
+  padding: 40px 15px 40px 15px;
+  gap:20px;
+}
+
+.section-five .section-five-inner .about-us{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-five .section-five-inner .about-us h2{
+  color: #9792E4;
+}
+
+.section-five .section-five-inner .about-us-testimony{
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-five .section-five-inner .about-us-testimony .au-image {
+  position: relative;
+  width: 60%;
+}
+
+.section-five .section-five-inner .about-us-testimony .au-image .virgolette{
+  position: absolute;
+  top:-0.2em;
+  color: #9792E4;
+  font-size: 3.5em;
+  left: 2.1em;
+}
+
+.section-five .section-five-inner .about-us-testimony .au-image img{
+  border-radius: 50%;
+  width: 100%;
+  object-fit: cover; 
+
+}
+
+.section-five .section-five-inner .about-us-testimony h3{
+  color: #9792E4;
+}
+
+.section-five .section-five-inner .about-us-testimony .au-button button{
+  width: 70%;
+  background-color: #9792E4;
+}
+
+.section-five .section-five-inner .about-us-testimony .au-button button a{
+  color: white;
+}
+.section-five .section-five-inner .about-us-testimony .au-button button a span {
+  margin-right: 5px;
+}
+
+
+
+/* section-five */
+/* section-six */
+
+.section-six{
+  background-color: #9792E4;
+}
+
+.section-six .section-six-inner .get-started-container{
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 60px 30px 60px 30px;
+
+}
+
+.section-six .section-six-inner .get-started-container h4{
+  color: #CBC9F1;
+
+}
+
+.section-six .section-six-inner .get-started-container h2{
+color: #FDC15F;
+font-size: 2.5em;
+}
+
+.section-six .section-six-inner .get-started-container p{
+  color: white;
+  text-align: center;
+}
+
+.section-six .section-six-inner .get-started-container .get-started-button{
+  width: 100%;
+  justify-content: center;
+}
+
+.section-six .section-six-inner .get-started-container .get-started-button button{
+  background-color: white;
+  width: 90%;
+}
+
+.section-six .section-six-inner .get-started-container .get-started-button a{
+  color: #9792E4;
+  font-weight: bold;
+  
+}
+
+.section-six .section-six-inner .get-started-container p a{
+  color: white;
+  text-decoration: underline;
+}
+
+
+
+/* section-six */
 
 
 
