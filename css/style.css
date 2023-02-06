@@ -2,4 +2,87 @@
 .flexbox{
   display: flex;
 }
+
+.centered{
+  width: 100%;
+  /* max-width: 1200px;
+  margin: auto; */
+}
+
+button{
+  border-radius: 30px;
+  padding: 8px 12px 8px 12px;
+  cursor: pointer;
+}
 /* common */
+
+/* header */
+nav{
+  background-color: #0084FD;
+}
+
+.nav-inner{
+  /* da sistemare per tablet e desktop */
+  padding: 10px 20px 10px 20px;
+}
+
+.nav-inner .logo{
+  width: 50%;
+  cursor: pointer;
+}
+
+.nav-inner .links-list{
+  width: 50%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-inner .links-list .burger{
+  align-items: center;
+  color: white;
+  display: block;
+  cursor: pointer;
+}
+
+/* da sistemare poi con tablet e desktop */
+.nav-inner .links-list .links{ 
+  color: white;
+  display: none;
+}
+
+.nav-inner .links-list .links .nav-links{
+  gap: 20px;  
+  align-items: center;
+}
+
+.nav-inner .links-list .links .nav-links li{
+  list-style: none;
+}
+
+.nav-inner .links-list .links .nav-links li a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav-inner .links-list .links .nav-links li #nav-right-button{
+  background-color: #FFFFFF;
+  border: none;  
+}
+
+.nav-inner .links-list .links .nav-links li #nav-right-button a{
+  color: black  
+}
+
+
+/* header */
+
+/* main */
+
+
+
+
+
+
+
+
+/* main */
