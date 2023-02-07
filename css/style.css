@@ -445,7 +445,8 @@ font-size: 2.5em;
 
 .section-six .section-six-inner .get-started-container .get-started-button button{
   background-color: white;
-  width: 90%;
+  width: 60%;
+  padding: 20px 0 20px 0;
 }
 
 .section-six .section-six-inner .get-started-container .get-started-button a{
@@ -503,6 +504,7 @@ line-height: 1.2em;
     flex-direction: row;
     justify-content: space-between;
     gap: 0;
+    align-items: stretch;
   }
 
   .section-one .section-one-inner .card{
@@ -527,10 +529,47 @@ line-height: 1.2em;
   }
   /* section-four */
   /* section-five */
+  .section-five .section-five-inner {
+    flex-direction: row;
+  }
 
+  .section-five .section-five-inner .about-us{
+    width: 60%;
+  }
 
+  .section-five .section-five-inner .about-us-testimony{
+    width: 40%;
+  }
+
+  .section-six{
+    justify-content: center;
+  }
+  
   /* section-five */
+  .container-bottom{
+    width: 80%;
+    
+  }
+
+  /* footer */
+  footer{
+    justify-content: center;
+
+    
+  }
+
+
+  /* footer */
 
 }
 
 /* tablet */
+/* desktop */
+@media screen and (min-width: 992px) {
+
+}
+
+
+
+
+/* desktop */
